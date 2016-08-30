@@ -1,0 +1,23 @@
+{
+  "name": "color-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color-diff": "^1.0.0",
+    "colour-extractor": "^0.2.1",
+    "imaging": "^2.1.0",
+    "rgb-hex": "^2.0.0"
+  },
+  "devDependencies": {
+    "color-diff": "^1.0.0",
+    "lodash": "^4.15.0",
+    "vorpal": "^1.11.4",
+    "vorpal-autocomplete-fs": "0.0.3"
+  }
+}
