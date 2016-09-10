@@ -12,10 +12,12 @@
     "color-diff": "^1.0.0",
     "colour-extractor": "^0.2.1",
     "imaging": "^2.1.0",
+    "jimp": "^0.2.27",
     "rgb-hex": "^2.0.0"
   },
   "devDependencies": {
     "color-diff": "^1.0.0",
+    "levenshtein": "^1.0.5",
     "lodash": "^4.15.0",
     "vorpal": "^1.11.4",
     "vorpal-autocomplete-fs": "0.0.3"

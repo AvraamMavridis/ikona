@@ -3,10 +3,9 @@ const ce = require( 'colour-extractor' );
 const diff = require( 'color-diff' );
 const values = require( 'lodash/values' );
 const countBy = require( 'lodash/countBy' );
-const rgbHex = require( 'rgb-hex' );
 const sortBy = require( 'lodash/sortBy' );
-const vorpal = require( 'vorpal' )();
-const fsAutocomplete = require('vorpal-autocomplete-fs');
+const vorpal = require('./src/vorpal').vorpal;
+require( './src/commands/commands' );
 
 var basecolor = { R: 255, G: 1, B: 30 };
 
@@ -18,42 +17,6 @@ var basePallete = [
     { R: 119, G: 120, B: 111 },
     { R: 34, G: 34, B: 35 },
 ];
-
-vorpal.command( 'pal -n <number> <imageDir>' )
-      .description('Outputs color mapping')
-      .autocomplete( fsAutocomplete() )
-      .action(function(args, callback) {
-         mapClosesImages( args.number, args.imageDir, callback );
-      });
-
-vorpal.command( 'topcolors <imageDir>' )
-      .description('Outputs most dominant colors')
-      .autocomplete( fsAutocomplete() )
-      .action(function(args, callback) {
-        getTopColors(args.imageDir)
-            .then(callback)
-            .catch(callback)
-      });
-
-const isFilePresent = function( fileDir )
-{
-    return new Promise( ( resolve, reject ) => {
-        fs.exists( __dirname + '/' + fileDir, exists => {
-            if( exists ) resolve( fileDir );
-            if( !exists ) reject( `${fileDir} does not exist` );
-        });
-    })
-}
-
-const getTopColors = function( imageDir )
-{
-    return new Promise( ( resolve, reject ) => {
-        isFilePresent( imageDir )
-            .then( imageDir => {
-              ce.topColours( __dirname + '/' + imageDir, true, resolve )
-             });
-    });
-}
 
 const mapClosesImages = function( number, imageDir, cb )
 {
