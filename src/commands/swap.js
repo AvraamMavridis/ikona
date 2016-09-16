@@ -30,13 +30,15 @@ const getChannel = function( channel )
     return minBy( channels, 'distance' ).channel;
 }
 
-vorpal.command( 'swap <imageDir> <channel1> <channel2> <outputDir>' )
+vorpal.command( 'swap <imageDir> <channel1> <channel2>' )
+      .option( '-o, --output [output]', 'The output file' )
       .description( 'Outputs most dominant colors' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {
           const channel1 = getChannel( args.channel1 );
           const channel2 = getChannel( args.channel2 );
+          const output = args.options.output ? `${args.options.output}.jpg` : 'chroma.jpg';
 
           isFilePresent( args.imageDir )
               .then( imageDir =>
@@ -58,7 +60,7 @@ vorpal.command( 'swap <imageDir> <channel1> <channel2> <outputDir>' )
                                 image.setPixelColor( jimp.rgbaToInt( pixelRBG.r, pixelRBG.g, pixelRBG.b, args.alpha ), i,j );
                             }
                         }
-                        image.write(`${args.outputDir}.jpg`);
+                        image.write( output );
                         callback();
                     } )
              })

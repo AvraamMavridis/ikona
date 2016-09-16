@@ -1,9 +1,10 @@
 {
-  "name": "chroma",
+  "name": "ikona",
   "version": "0.1.0",
   "description": "Image processing CLI",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Avraam Mavridis",
@@ -21,5 +22,20 @@
     "lodash": "^4.15.0",
     "vorpal": "^1.11.4",
     "vorpal-autocomplete-fs": "0.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvraamMavridis/ikona.git"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "image",
+    "processing",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/AvraamMavridis/ikona/issues"
+  },
+  "homepage": "https://github.com/AvraamMavridis/ikona#readme"
 }

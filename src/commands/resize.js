@@ -14,7 +14,7 @@ var resizeModes = {
 vorpal.command( 'resize <imageDir>' )
       .option( '-h, --height [height]', 'The height of the new image (default "auto")' )
       .option( '-w, --width [width]', 'The width of the new image (default "auto")' )
-      .option( '-o, --output [output]', 'The width of the new image (default "auto")' )
+      .option( '-o, --output [output]', 'The output file' )
       .option( '-m, --mode [mode]', 'The mode',['Bilinear', 'Nearest_Neighbor', 'Bicubic', 'Hermite', 'Bezier'] )
       .description( 'Resizes the image ' )
       .autocomplete( fsAutocomplete() )
