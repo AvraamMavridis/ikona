@@ -22,17 +22,10 @@ vorpal.command( 'dominant <imageDir>' )
                     console.log( colors );
                     callback();
                 }
-                else if ( args.options.rgb )
-                {
-                    colors = colors.map( color => {
-                        return { red: color[1][0], green: color[1][1], blue: color[1][2] };
-                    });
-                    callback();
-                }
                 else
                 {
                     colors = colors.map( color => {
-                        return [ color[1][0], color[1][1], color[1][2] ];
+                        return { red: color[1][0], green: color[1][1], blue: color[1][2] };
                     });
                     console.log( colors );
                     callback();

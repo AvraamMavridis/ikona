@@ -1,12 +1,12 @@
 {
-  "name": "color-gen",
-  "version": "1.0.0",
-  "description": "",
+  "name": "chroma",
+  "version": "0.1.0",
+  "description": "Image processing CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Avraam Mavridis",
   "license": "ISC",
   "dependencies": {
     "color-diff": "^1.0.0",
