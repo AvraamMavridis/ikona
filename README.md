@@ -29,6 +29,22 @@ Resizes an image.
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used for resizing 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
 
+###`scale <imageDir>`
+
+Scale an image by the given factor
+
+##### Example
+
+`scale abstract.jpg -f 2 --m Biliner -o abstract2.jpg`
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -f   	|  Scale factor 	|   Optional, defualt=2	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+| -m 	|  The algorithm that will be used for resizing 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
+
 ###`swap <imageDir> <channel1> <channel2>`
 
 Swap the color channels of an image
