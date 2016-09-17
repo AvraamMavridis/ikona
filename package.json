@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "postinstall": "sudo npm link",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Avraam Mavridis",
@@ -15,6 +16,9 @@
     "imaging": "^2.1.0",
     "jimp": "^0.2.27",
     "rgb-hex": "^2.0.0"
+  },
+  "bin": {
+     "ikona": "index.js"
   },
   "devDependencies": {
     "color-diff": "^1.0.0",

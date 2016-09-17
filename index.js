@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require( 'fs' );
 const ce = require( 'colour-extractor' );
 const diff = require( 'color-diff' );

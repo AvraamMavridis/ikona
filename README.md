@@ -2,6 +2,13 @@
 
 CLI tool for image processing
 
+## Install & Run
+
+`sudo npm install -g ikona`
+
+Then from your command line just type `ikona`
+Now you can use the following commands:
+
 ## Commands
 
 ###`help [command]`
