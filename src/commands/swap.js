@@ -32,7 +32,7 @@ const getChannel = function( channel )
 
 vorpal.command( 'swap <imageDir> <channel1> <channel2>' )
       .option( '-o, --output [output]', 'The output file' )
-      .description( 'Outputs most dominant colors' )
+      .description( 'Swaps the values of two color channels' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {

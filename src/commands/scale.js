@@ -15,7 +15,7 @@ vorpal.command( 'scale <imageDir>' )
       .option( '-f, --factor [factor]', 'The factor f by which the image will be scaled' )
       .option( '-o, --output [output]', 'The output file' )
       .option( '-m, --mode [mode]', 'The mode',['Bilinear', 'Nearest_Neighbor', 'Bicubic', 'Hermite', 'Bezier'] )
-      .description( 'Scales the image by a factor f' )
+      .description( 'Scale the image by a factor' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {
