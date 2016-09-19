@@ -4,3 +4,4 @@ require('./resize');
 require('./scale');
 require('./cover');
 require('./contain');
+require('./scaletofit');
