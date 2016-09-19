@@ -57,7 +57,7 @@ vorpal.command( 'swap <imageDir> <channel1> <channel2>' )
                                 pixelRBG[channel1] = pixelRBG[channel2];
                                 pixelRBG[channel2] = temp;
 
-                                image.setPixelColor( jimp.rgbaToInt( pixelRBG.r, pixelRBG.g, pixelRBG.b, args.alpha ), i,j );
+                                image.setPixelColor( jimp.rgbaToInt( pixelRBG.r, pixelRBG.g, pixelRBG.b, 255 ), i,j );
                             }
                         }
                         image.write( output );
