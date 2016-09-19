@@ -3,10 +3,10 @@ const vorpal = require('../vorpal').vorpal;
 const jimp = require("jimp");
 const isFilePresent = require( '../utils/isFilePresent' ).isFilePresent;
 
-vorpal.command( 'brightness <imageDir>' )
-      .option( '-f, --factor [factor]', 'The brightness factor f, from -1 to 1' )
+vorpal.command( 'contrast <imageDir>' )
+      .option( '-f, --factor [factor]', 'The contrast factor f, from -1 to 1' )
       .option( '-o, --output [output]', 'The output file' )
-      .description( 'Adjust the brightness by a value -1 to +1' )
+      .description( 'Adjust the contrast by a value -1 to +1' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {
@@ -20,7 +20,7 @@ vorpal.command( 'brightness <imageDir>' )
                   {
                       if( error ) throw error;
 
-                      image.brightness( factor );
+                      image.contrast( factor );
                       image.write( output );
                       callback();
                   } )

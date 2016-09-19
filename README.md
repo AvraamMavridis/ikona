@@ -169,6 +169,23 @@ Adjust the brighness by a value -1 to +1
 | -f   	|  Brightness factor 	|   Optional, defualt=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
+###`contrast <imageDir>`
+
+Adjust the brighness by a value -1 to +1
+
+##### Example
+
+`contrast realcat.jpg -f 0.5 -o contrastcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s13.postimg.org/ja1g9un93/contrastcat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -f   	|  Contrast factor 	|   Optional, defualt=1	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
 ###`dominant <imageDir>`
 
 Displays the dominant colors of an image

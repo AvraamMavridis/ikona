@@ -7,3 +7,4 @@ require('./contain');
 require('./scaletofit');
 require('./crop');
 require('./brightness');
+require('./contrast');
