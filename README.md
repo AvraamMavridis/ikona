@@ -42,7 +42,9 @@ Scale an image by the given factor
 
 ##### Example
 
-`scale abstract.jpg -f 2 --m Biliner -o abstract2.jpg`
+`scale realcat.jpg -f 1.5 -o bigcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s13.postimg.org/4hxp2u7xj/bigcat.jpg)
 
 ##### Options
 
