@@ -5,3 +5,4 @@ require('./scale');
 require('./cover');
 require('./contain');
 require('./scaletofit');
+require('./crop');

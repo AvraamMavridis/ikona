@@ -132,6 +132,26 @@ Swap the color channels of an image
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used for resizing 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
 
+###`crop <imageDir>`
+
+Crop an image on the given points
+
+##### Example
+
+`crop realcat.jpeg -x 20 -y 20 -h 70 -w 70 -o croppedcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s15.postimg.org/9dff4vssr/croppedcat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -x   	|  Starting point in the x axis 	|   Optional, defualt=0	|
+| -y  	|  Starting point in the y axis 	|   Optional, defualt=0		|
+| -h   	|  The height of the new image 	|   Optional, defualt=250	|
+| -w  	|  The width of the new image 	|   Optional, default=250	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
 ###`dominant <imageDir>`
 
 Displays the dominant colors of an image
