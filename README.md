@@ -93,6 +93,8 @@ Swap the color channels of an image
 
 `swap abstract.jpg red green -o abstract2.jpg`
 
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s14.postimg.org/g8rnqjcpt/realcat2.jpg)
+
 ##### Options
 
 |Option   	|  Description 	|   	|
