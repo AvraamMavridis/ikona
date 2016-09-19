@@ -7,6 +7,7 @@ CLI tool for image processing
 `sudo npm install -g ikona`
 
 Then from your command line just type `ikona`
+
 Now you can use the following commands:
 
 ## Commands
@@ -25,7 +26,9 @@ Resizes an image.
 
 ##### Example
 
-`resize abstract.jpg -h 250 -w 250 -m Biliner -o abstract2.jpg`
+`resize realcat.jpg -h 200 -w 200 -o resizecat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s11.postimg.org/kqwo37k4j/resizecat.jpg)
 
 ##### Options
 
@@ -60,7 +63,9 @@ Scale the image to the given width and height, some parts of the image may be cl
 
 ##### Example
 
-`cover abstract.jpg -h 250 -w 250 -m Biliner -o abstract2.jpg`
+`cover realcat.jpg -h 300 -w 100 -o covercat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s22.postimg.org/58s2rskdt/covercat.jpg)
 
 ##### Options
 
@@ -77,7 +82,9 @@ Scale the image to the given width and height, some parts of the image may be le
 
 ##### Example
 
-`contain abstract.jpg -h 250 -w 250 -o abstract2.jpg`
+`contain realcat.jpg -h 200 -w 250 -o containcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s12.postimg.org/llck2q2ul/containcat.jpg)
 
 ##### Options
 
