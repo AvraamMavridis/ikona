@@ -57,6 +57,25 @@ Scale an image by the given factor
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
 
+###`scaletofit <imageDir>`
+
+Scale the image to the largest size that fits inside the given width and height
+
+##### Example
+
+`scaletofit realcat.jpg -h 450 -w 500 -o scaletofitcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s16.postimg.org/84vhlw93p/scaletofitcat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -h   	|  The height of the new image 	|   Optional, defualt="auto"	|
+| -w  	|  The width of the new image 	|   Optional, default="auto"	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+| -m 	|  The algorithm that will be used 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
+
 ###`cover <imageDir>`
 
 Scale the image to the given width and height, some parts of the image may be clipped
