@@ -6,3 +6,4 @@ require('./cover');
 require('./contain');
 require('./scaletofit');
 require('./crop');
+require('./brightness');

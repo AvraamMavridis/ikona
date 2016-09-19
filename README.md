@@ -152,6 +152,23 @@ Crop an image on the given points
 | -w  	|  The width of the new image 	|   Optional, default=250	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
+###`brightness <imageDir>`
+
+Adjust the brighness by a value -1 to +1
+
+##### Example
+
+`brightness realcat.jpg -f 0.5 -o brightcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s11.postimg.org/7te4pxog3/brightcat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -f   	|  Brightness factor 	|   Optional, defualt=1	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
 ###`dominant <imageDir>`
 
 Displays the dominant colors of an image
