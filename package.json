@@ -1,6 +1,6 @@
 {
   "name": "ikona",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Image processing CLI",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "rgb-hex": "^2.0.0"
   },
   "bin": {
-     "ikona": "index.js"
+    "ikona": "index.js"
   },
   "devDependencies": {
     "color-diff": "^1.0.0",
