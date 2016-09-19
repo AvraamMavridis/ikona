@@ -91,7 +91,7 @@ Swap the color channels of an image
 
 ##### Example
 
-`swap abstract.jpg red green -o abstract2.jpg`
+`swap realcat.jpg green blue`
 
 ![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](https://s14.postimg.org/g8rnqjcpt/realcat2.jpg)
 
