@@ -202,6 +202,38 @@ Remove colour from the image
 |---	|---	|---	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
+###`normalize <imageDir>`
+
+Normalize the channels in an image
+
+##### Example
+
+`normalize realcat.jpg -o normalcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s9.postimg.org/5j020j4rj/normcat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
+###`invert <imageDir>`
+
+Normalize the channels in an image
+
+##### Example
+
+`invert realcat.jpg -o invertcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s11.postimg.org/y8p1u7io3/invertcat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
 ###`dominant <imageDir>`
 
 Displays the dominant colors of an image
