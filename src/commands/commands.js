@@ -9,3 +9,5 @@ require('./crop');
 require('./brightness');
 require('./contrast');
 require('./grey');
+require('./normalize');
+require('./invert');
