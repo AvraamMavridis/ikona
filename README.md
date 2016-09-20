@@ -186,6 +186,22 @@ Adjust the brighness by a value -1 to +1
 | -f   	|  Contrast factor 	|   Optional, defualt=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
+###`grey <imageDir>`
+
+Remove colour from the image
+
+##### Example
+
+`grey realcat.jpg -o greycat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s16.postimg.org/qklu7pzr9/greycat.jpg)
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
 ###`dominant <imageDir>`
 
 Displays the dominant colors of an image

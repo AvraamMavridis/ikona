@@ -8,3 +8,4 @@ require('./scaletofit');
 require('./crop');
 require('./brightness');
 require('./contrast');
+require('./grey');
