@@ -5,7 +5,7 @@ const isFilePresent = require( '../utils/isFilePresent' ).isFilePresent;
 
 vorpal.command( 'sepia <imageDir>' )
       .option( '-o, --output [output]', 'The output file' )
-      .description( 'Invert the image colours ' )
+      .description( 'Apply a sepia wash to the image ' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {

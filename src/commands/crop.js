@@ -9,7 +9,7 @@ vorpal.command( 'crop <imageDir>' )
       .option( '-h, --height [height]', 'The height of the new image (default "auto")' )
       .option( '-w, --width [width]', 'The width of the new image (default "auto")' )
       .option( '-o, --output [output]', 'The output file' )
-      .description( 'Resize the image ' )
+      .description( 'Crop the image ' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {

@@ -5,7 +5,7 @@ const isFilePresent = require( '../utils/isFilePresent' ).isFilePresent;
 
 vorpal.command( 'grey <imageDir>' )
       .option( '-o, --output [output]', 'The output file' )
-      .description( 'Adjust the brightness by a value -1 to +1' )
+      .description( 'Remove colour from the image' )
       .autocomplete( fsAutocomplete() )
       .action(( args, callback ) =>
       {
