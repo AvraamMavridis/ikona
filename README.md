@@ -270,7 +270,7 @@ Multiply the alpha channel by each pixel by the factor f, 0 - 1
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -f   	|  Contrast factor 	|   Optional, defualt=1	|
+| -f   	|  Fade factor 	|   Optional, defualt=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
 ###`sepia <imageDir>`
@@ -287,4 +287,23 @@ Apply a sepia wash to the image
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
+###`posterize <imageDir>`
+
+Apply a posterization effect with f factor
+
+
+##### Example
+
+`posterize realcat.jpg -f 5 -o postercat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s9.postimg.org/3qndnu4wv/postercat.jpg)
+
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -f   	|  Posterize factor 	|   Optional, defualt=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
