@@ -36,7 +36,27 @@
     "processing",
     "image",
     "processing",
-    "cli"
+    "cli",
+    "crop",
+    "scale",
+    "resize",
+    "bmp",
+    "jpeg",
+    "jpg",
+    "png",
+    "image manipulation",
+    "image processing",
+    "image",
+    "sepia",
+    "posterize",
+    "swap",
+    "scaletofit",
+    "normalize",
+    "invert",
+    "grey",
+    "fade",
+    "contain",
+    "brightness"
   ],
   "bugs": {
     "url": "https://github.com/AvraamMavridis/ikona/issues"
