@@ -13,3 +13,4 @@ require('./normalize');
 require('./invert');
 require('./fade');
 require('./sepia');
+require('./posterize');
