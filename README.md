@@ -18,6 +18,10 @@ Now you can use the following commands:
 
 Displays helpful information for a command. e.g. `help resize`
 
+##### Example
+
+`help resize`
+
 ###`exit`
 
 Exits from the cli
