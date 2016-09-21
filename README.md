@@ -22,6 +22,8 @@ Displays helpful information for a command. e.g. `help resize`
 
 `help resize`
 
+![HELP](http://s10.postimg.org/lax3960d5/Screen_Shot_2016_09_21_at_10_36_17.png) 
+
 ###`exit`
 
 Exits from the cli
