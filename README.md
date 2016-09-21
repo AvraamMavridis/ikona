@@ -2,6 +2,8 @@
 
 CLI tool for image processing
 
+![Brush](http://downloadicons.net/sites/default/files/paint-brush-icon-67669.png)
+
 ## Install & Run
 
 `sudo npm install -g ikona`
