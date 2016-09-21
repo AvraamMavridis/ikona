@@ -12,3 +12,4 @@ require('./grey');
 require('./normalize');
 require('./invert');
 require('./fade');
+require('./sepia');
