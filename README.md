@@ -42,7 +42,7 @@ Resizes an image.
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -h   	|  The height of the new image 	|   Optional, defualt="auto"	|
+| -h   	|  The height of the new image 	|   Optional, default="auto"	|
 | -w  	|  The width of the new image 	|   Optional, default="auto"	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used for resizing 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
@@ -61,7 +61,7 @@ Scale an image by the given factor
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -f   	|  Scale factor 	|   Optional, defualt=2	|
+| -f   	|  Scale factor 	|   Optional, default=2	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
 
@@ -79,7 +79,7 @@ Scale the image to the largest size that fits inside the given width and height
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -h   	|  The height of the new image 	|   Optional, defualt="auto"	|
+| -h   	|  The height of the new image 	|   Optional, default="auto"	|
 | -w  	|  The width of the new image 	|   Optional, default="auto"	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
@@ -98,7 +98,7 @@ Scale the image to the given width and height, some parts of the image may be cl
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -h   	|  The height of the new image 	|   Optional, defualt="auto"	|
+| -h   	|  The height of the new image 	|   Optional, default="auto"	|
 | -w  	|  The width of the new image 	|   Optional, default="auto"	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
@@ -117,7 +117,7 @@ Scale the image to the given width and height, some parts of the image may be le
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -h   	|  The height of the new image 	|   Optional, defualt="auto"	|
+| -h   	|  The height of the new image 	|   Optional, default="auto"	|
 | -w  	|  The width of the new image 	|   Optional, default="auto"	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
@@ -135,7 +135,7 @@ Swap the color channels of an image
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -h   	|  The height of the new image 	|   Optional, defualt="auto"	|
+| -h   	|  The height of the new image 	|   Optional, default="auto"	|
 | -w  	|  The width of the new image 	|   Optional, default="auto"	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 | -m 	|  The algorithm that will be used for resizing 	| [Bilinear, Nearest_Neighbor, Bicubic, Hermite, Bezier], default=Bilinear	|
@@ -154,9 +154,9 @@ Crop an image on the given points
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -x   	|  Starting point in the x axis 	|   Optional, defualt=0	|
-| -y  	|  Starting point in the y axis 	|   Optional, defualt=0		|
-| -h   	|  The height of the new image 	|   Optional, defualt=250	|
+| -x   	|  Starting point in the x axis 	|   Optional, default=0	|
+| -y  	|  Starting point in the y axis 	|   Optional, default=0		|
+| -h   	|  The height of the new image 	|   Optional, default=250	|
 | -w  	|  The width of the new image 	|   Optional, default=250	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
@@ -174,7 +174,7 @@ Adjust the brighness by a value -1 to +1
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -f   	|  Brightness factor 	|   Optional, defualt=1	|
+| -f   	|  Brightness factor 	|   Optional, default=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
 ###`contrast <imageDir>`
@@ -191,7 +191,7 @@ Adjust the contrast by a value -1 to +1
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -f   	|  Contrast factor 	|   Optional, defualt=1	|
+| -f   	|  Contrast factor 	|   Optional, default=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
 ###`grey <imageDir>`
@@ -270,7 +270,7 @@ Multiply the alpha channel by each pixel by the factor f, 0 - 1
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -f   	|  Fade factor 	|   Optional, defualt=1	|
+| -f   	|  Fade factor 	|   Optional, default=1	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
 
 ###`sepia <imageDir>`
@@ -305,5 +305,24 @@ Apply a posterization effect with f factor
 
 |Option   	|  Description 	|   	|
 |---	|---	|---	|
-| -f   	|  Posterize factor 	|   Optional, defualt=1	|
+| -f   	|  Posterize factor 	|   Optional, default=1	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
+###`rotate <imageDir>`
+
+Rotate the image clockwise by a number of degrees.
+
+
+##### Example
+
+`rotate realcat.jpg -d 30 -o rotatedcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s21.postimg.org/43v63cfd3/rotatedcat.jpg)
+
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -d   	|  Degrees 	|   Optional, default=90	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|

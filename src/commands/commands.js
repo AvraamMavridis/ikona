@@ -14,3 +14,4 @@ require('./invert');
 require('./fade');
 require('./sepia');
 require('./posterize');
+require('./rotate');
