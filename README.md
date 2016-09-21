@@ -326,3 +326,23 @@ Rotate the image clockwise by a number of degrees.
 |---	|---	|---	|
 | -d   	|  Degrees 	|   Optional, default=90	|
 | -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|
+
+###`flip <imageDir>`
+
+Rotate the image clockwise by a number of degrees.
+
+
+##### Example
+
+`flip realcat.jpg -h -o flippedcat`
+
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s11.postimg.org/t79e9yymr/image.jpg)
+
+
+##### Options
+
+|Option   	|  Description 	|   	|
+|---	|---	|---	|
+| -h   	|  Horizontally 	|  	|
+| -v   	|  Vertically 	|  	|
+| -o 	|  The name of the new file 	|   Optional, default="chroma.jpg"	|

@@ -15,3 +15,4 @@ require('./fade');
 require('./sepia');
 require('./posterize');
 require('./rotate');
+require('./flip');
