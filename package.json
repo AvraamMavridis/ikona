@@ -1,6 +1,6 @@
 {
   "name": "ikona",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Image processing CLI",
   "main": "index.js",
   "scripts": {
