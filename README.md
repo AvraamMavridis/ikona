@@ -281,6 +281,7 @@ Apply a sepia wash to the image
 
 `sepia realcat.jpg -o sepiacat`
 
+![Cat](https://s16.postimg.org/v26wzfpat/realcat.jpg)   ![Cat2](http://s18.postimg.org/x9ujdy6l5/sepiacat.jpg)
 
 ##### Options
 
