@@ -173,7 +173,7 @@ Adjust the brighness by a value -1 to +1
 
 ###`contrast <imageDir>`
 
-Adjust the brighness by a value -1 to +1
+Adjust the contrast by a value -1 to +1
 
 ##### Example
 
