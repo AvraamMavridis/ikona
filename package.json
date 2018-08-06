@@ -14,7 +14,7 @@
     "color-diff": "^1.0.0",
     "colour-extractor": "^0.2.1",
     "imaging": "^2.1.0",
-    "jimp": "^0.2.27",
+    "jimp": "^0.3.2",
     "rgb-hex": "^2.0.0"
   },
   "bin": {
