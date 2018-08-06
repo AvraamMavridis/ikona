@@ -1,5 +1,7 @@
 # Ikona ([Εικόνα](https://el.wikipedia.org/wiki/%CE%95%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1))
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AvraamMavridis/ikona.svg)](https://greenkeeper.io/)
+
 CLI tool for image processing
 
 ![Brush](http://downloadicons.net/sites/default/files/paint-brush-icon-67669.png)
